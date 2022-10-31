@@ -1,9 +1,7 @@
-import './trainers.css'
+import "./trainers.css";
 
 const Trainers = () => {
-  return (
-    <div>Trainers</div>
-  )
-}
+  return <div>Trainers</div>;
+};
 
-export default Trainers
+export default Trainers;
