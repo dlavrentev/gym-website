@@ -54,9 +54,25 @@ nav {
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    background: red;
+    background: var(--color-primary);
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
     margin-top: 0.9rem;
+}
+
+/* MEDIA QUERIES (medium and small screens) */
+
+
+@media screen and (max-width: 1024px) {
+    .nav__toggle-btn {
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .nav__toggle-btn svg {
+        color: var(--color-gray-100);
+    }
 }
