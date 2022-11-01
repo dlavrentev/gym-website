@@ -12,6 +12,14 @@
     --primary-hue: 210;
     --gray-hue: 240;
     --color-primary: hsl(var(--primary-hue), 100%, 50%);
+    --color-primary-variant: hsl(var(--primary-hue), 100%, 65%)
+    --colo-primary-secondary: #ffb166;
+    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
+    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
 }
 
 
