@@ -20,7 +20,7 @@ const [isNavShowing, setIsNavShowing] = useState(false);
         <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
           {links.map(({ name, path }, index) => {
             return (
-              <li>
+              <li key={index}>
                 <NavLink to={path} className={({isActive}) => isActive ? 'active-nav' : ''}>{name}</NavLink>
               </li>
             );
