@@ -83,6 +83,15 @@ nav {
         flex-direction: column;
         gap: 0;
     }
+    
+
+    /* NAV ANIMATION  */
+
+    @keyframes navAnimation {
+        to {
+            
+        }
+    }
 
     .active-nav, .active-nav::after {
         display: none;
